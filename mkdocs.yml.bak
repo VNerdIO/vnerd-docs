@@ -1,6 +1,0 @@
-site_name: vnerd Documentation
-theme:
-    name: material
-    locale: en
-dev_addr: '0.0.0.0:8000'
-repo_url: https://github.com/VNerdIO/vnerd-docs
