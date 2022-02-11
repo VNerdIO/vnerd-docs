@@ -8,7 +8,7 @@ Start with a working dockerfile and a docker installation. Test it locally
 git clone https://github.com/VNerdIO/docs-container
 cd docs-container
 
-docker build -t vnerddocs .
+sudo docker build --no-cache -t vnerddocs .
 sudo docker run -d -p 80:80 vnerddocs
 ```
 
@@ -21,4 +21,4 @@ sudo docker tag vnerddocs vnerdacr.azurecr.io/vnerddocs
 sudo docker push vnerdacr.azurecr.io/vnerddocs
 ```
 
-Create a containre instance in Azure from ACR and your repo above.
+Create a container instance in Azure from ACR and your repo above.
